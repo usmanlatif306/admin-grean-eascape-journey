@@ -1,0 +1,91 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #60a3bc !important;
+}
+.login-body,
+.forget-body {
+  width: 400px;
+  height: 350px;
+  background-color: #f39c12;
+}
+.login-body hr,
+.forget-body hr {
+  width: 70%;
+  border: 1px solid crimson;
+}
+.login-field {
+  width: 300px;
+}
+.login-field span {
+  padding: 8px 10px;
+  color: #fff;
+  border-radius: 5px 0 0 5px;
+  background-color: crimson;
+}
+.login-field input {
+  width: 83%;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 7px;
+}
+.login-body button,
+.forget-body button,
+.back-btn {
+  margin-left: 85px;
+  background-color: crimson;
+  border: none;
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.forget-body button,
+.back-btn {
+  margin-left: 10px;
+}
+.back-btn {
+  padding: 11px 25px;
+}
+.back-btn:hover {
+  color: #fff;
+}
+.login-body button:focus {
+  outline: none;
+}
+/* Plan Detail */
+.card-plan,
+.edit-div {
+  position: relative;
+}
+.edit-div {
+  width: 50%;
+}
+.plan-icon {
+  position: absolute;
+  top: 6%;
+  right: 8%;
+  font-size: 30px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 999;
+}
+.edit-icon {
+  position: absolute;
+  top: 0%;
+  right: 2%;
+  font-size: 30px;
+  opacity: 0;
+  transition: all 0.5s ease;
+  z-index: 999;
+  cursor: pointer;
+}
+.card-plan:hover .plan-icon,
+.edit-div:hover .edit-icon {
+  opacity: 1;
+}
+.hide {
+  display: none;
+}

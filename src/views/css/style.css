@@ -1,0 +1,82 @@
+/****** Profile *****/
+.profile-img {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+}
+.password-div {
+  width: 80%;
+  margin: 0 auto;
+}
+.pro-img {
+  width: 100%;
+  height: 180px;
+}
+/* .pro-img:hover {
+    opacity: 0.4 !important;
+    transition: 0.2s all ease;
+  } */
+.add-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  right: 43%;
+  opacity: 0;
+}
+.profile-img:hover .add-icon {
+  opacity: 1;
+}
+.overrelay {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.438);
+  position: absolute;
+  top: 83%;
+  text-align: center;
+  padding-top: 3px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  opacity: 0;
+  transition: 1s all ease;
+  z-index: 99999;
+}
+.overrelay label {
+  cursor: pointer;
+  color: #fff;
+}
+.profile-img:hover .overrelay {
+  opacity: 1 !important;
+  transition: 1s all ease;
+}
+.card-stats {
+  position: relative;
+}
+.plan__edit {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  font-size: 20px;
+  z-index: 999;
+  opacity: 0;
+  cursor: pointer;
+  /* transition: opacity ease-in 1s; */
+}
+.card-stats:hover .plan__edit {
+  opacity: 1;
+}
+.plan__image__file {
+  display: none;
+}
+/* Selected Items */
+.item__selected {
+  background-color: rgb(63, 63, 197);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.item__selected span {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 15px;
+}
